@@ -14,6 +14,16 @@ body{
 .text-primary{
     font-family:"Azeret Mono", monospace;
 }
+.text-format-1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.text-format-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #41444b;
+}
 /* Shraing style-end */
 
 /* Navigation-start*/
@@ -62,9 +72,6 @@ body{
     margin-bottom: 30px;
 }
 .bannar-description{
-    font-size: 16px;
-    font-weight: 400;
-    color: #41444b;
     margin: 0 73px 38px 73px;
     line-height: 26px;
 }
@@ -91,15 +98,8 @@ body{
 .web-dev-content-heading{
     text-align: center;
 }
-.web-dev-content-heading-title{
-    font-size: 32px;
-    font-weight: 800px;
-}
 .web-dev-content-heading-description{
-    font-size: 16px;
-    font-weight: 400px;
-    margin: 24px  47px 48px 47px;
-    color: #41444b;
+    margin: 0 47px 48px 47px;
 }
 .web-dev-content-items{
     width: 100%;
@@ -123,9 +123,6 @@ body{
     margin-bottom: 16px;
 }
 .web-dev-content-items-text-description{
-    font-size: 16px;
-    font-weight: 400;
-    color: #41444b;
     margin-bottom: 32px;
 }
 .web-dev-content-items-text-btn{
@@ -150,16 +147,6 @@ body{
     margin: 0 144px 48px 144px;
     text-align: center;
 }
-.inspiration-heading-title{
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
-.inspiration-heading-description{
-    font-size: 16px;
-    font-weight: 400;
-    color: #41444b;
-}
 .inspiration-video{
     width: 100%;
     height: 614px;
@@ -173,3 +160,48 @@ body{
     border-radius: 16px;
 }
 /*Inspiration section end*/
+/* my-current-target start */
+.my-current-target{
+    width: 1140px;
+    height: 506px;
+    margin: 130px auto;
+}
+.my-current-target-heading{
+    margin: 0 144px 48px 144px;
+    text-align: center;
+}
+.my-current-target-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-current-target-item{
+    width: 364px;
+    height: 360px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.my-current-target-item-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 8px 0;
+}
+.my-current-target-item-btn{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-top: 24px;
+    border: none;
+    border-bottom:2px solid #0D1321 ;
+}
+.current-target-item-1{
+    background-color: #FF4C1E0D;
+}
+.current-target-item-2{
+    background-color: #004CE80D;
+}
+.current-target-item-3{
+    background-color: #FFDF000D;
+}
+
+/* my-target end */
