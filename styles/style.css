@@ -193,6 +193,7 @@ body{
     margin-top: 24px;
     border: none;
     border-bottom:2px solid #0D1321 ;
+    cursor: pointer;
 }
 .current-target-item-1{
     background-color: #FF4C1E0D;
@@ -204,4 +205,32 @@ body{
     background-color: #FFDF000D;
 }
 
-/* my-target end */
+/* my-current-target end */
+/* my-next-target start */
+.my-next-target{
+    width: 1140px;
+    height: 842px;
+    margin: 0 auto;
+}
+.my-next-target-heading{
+    margin: 0 97px 48px 97px;
+    text-align: center;
+}
+.my-next-target-item{
+    width: 100%;
+    height: 216px;
+    border-radius: 16px;
+    border: 1px solid #0D1321;
+    margin-top: 24px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.my-next-target-item-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+/* my-next-target end */
