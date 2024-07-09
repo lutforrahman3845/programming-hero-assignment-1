@@ -22,7 +22,7 @@ body{
 .text-format-2{
     font-size: 16px;
     font-weight: 400;
-    color: #41444b;
+    color: #0b111dab;
 }
 /* Shraing style-end */
 
@@ -234,3 +234,67 @@ body{
     margin-bottom: 8px;
 }
 /* my-next-target end */
+/* Support section start  */
+.support{
+    width: 1140px;
+    height: 313px;
+    margin: 60px auto;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: over;
+    background-blend-mode: overlay;
+}
+.support-content{
+    width: 100%;
+    height: 185px;
+    text-align: center;
+}
+.support-content-hrading{
+    margin: 0 157px;
+    height: 104px;
+}
+.support-content-hrading-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #ffff;
+}
+.support-content-hrading-descirption{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    opacity: .7;
+}
+.input-filed{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.input-filed input[type=text]{
+    width: 548px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.input-filed input[type=text]::placeholder{
+    font-family:"Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D132166;
+}
+.input-filed input[type=submit]{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    font-family:"Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Support section end */
